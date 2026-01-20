@@ -21,5 +21,6 @@ public class calci {
             default:
                 break;
         }
+        sc.close();
     }
 }
