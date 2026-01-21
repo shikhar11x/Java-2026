@@ -1,6 +1,6 @@
 public class linearSearch {
     public static int linearSrch(int n[], int key){
-        for(int i=0;i<n.length;i++){
+        for(int i=0;i<n.length;i++){ // time complexity O(n) where n is no of time loop runs
             if (n[i]==key) {
                 return i;
             }
